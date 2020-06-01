@@ -85,4 +85,5 @@ Generated output using the above example:
 
 ## Limitations
 
-Currently, this tool does not check the syntax of the parts or input files. If you use this tool to generate training data, make sure you inspect the output before giving it to your model.
+Currently, this tool does not check the syntax of the parts or input files.  
+If you use this tool to generate training data, be sure to inspect the output before giving it to your model.
