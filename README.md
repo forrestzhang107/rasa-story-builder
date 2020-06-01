@@ -5,12 +5,12 @@ https://rasa.com/docs/rasa/core/stories/
 
 ## Usage
 
-User must configure two files: parts.md and input.md
-output.md (aka stories.md) is generated using `node start.js`
+User must configure two files: parts.md and input.md.  
+output.md (aka stories.md) is generated upon `node start.js`
 
 ## parts.md
 
-Here is where you can define the modular "parts" of your story.
+Here is where you can define the modular "parts" of your story.  
 Feel free copy and paste common patterns within your existing stories.md file.
 
 Syntax:
