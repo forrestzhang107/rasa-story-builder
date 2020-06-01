@@ -1,4 +1,4 @@
-# Rasa Story Builder
+# rasa-story-builder
 
 rasa-story-builder is a story builder tool for Rasa conversational AI  
 https://rasa.com/docs/rasa/core/stories/
