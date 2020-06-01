@@ -11,7 +11,7 @@ output.md (aka stories.md) is generated using command `node start.js`
 ## parts.md
 
 Here is where you can define the modular "parts" of your story.  
-I recommend building this file by copy and pasting common patterns within your existing stories.md file.
+I recommend building this file by extracting common patterns within your existing stories.md file.
 
 Syntax:
 
