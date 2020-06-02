@@ -31,14 +31,19 @@ function writeOutput(str) {
 
 const parts = readParts()
 const input = readInput()
+const partsKeys = Object.keys(parts)
 
 const output = []
 for (const story of input) {
   const title = story.join('|')
   let storyOut = '## ' + title + '\n'
-  for (const part of story) storyOut += parts[part]
-  if (output.includes(storyOut)) console.log('duplicated detected for: ' + title)
+  for (const part of story) {
+    if (!partsKeys.includes(part)) return console.log('could not find part: ' + part)
+    storyOut += parts[part]
+  }
+  if (output.includes(storyOut)) console.log('duplicated story detected: ' + title)
   output.push(storyOut)
 }
 
 writeOutput(output.join('\n'))
+console.log('successfully generated output.md')
